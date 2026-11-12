@@ -1,1 +1,34 @@
+* {
+    box-sizing: border-box;
+}
 
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    width: 150px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.button-row {
+    display: flex;
+    gap: 5px;
+}
+
+button {
+    flex: 1;
+}
